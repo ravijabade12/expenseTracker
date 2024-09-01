@@ -1,8 +1,42 @@
-# React + Vite
+# Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple and efficient Expense Tracker application built using Vite and React. The project utilizes Context API for state management and `useReducer` to manage state updates across various components.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Add Expenses**: Easily add your daily expenses with a description, amount, and date.
+- **View Expenses**: View a list of all added expenses, categorized by date.
+- **Delete Expenses**: Remove any expense entry if needed.
+- **Real-Time Updates**: Expenses are updated in real-time using Context API and `useReducer`.
+
+## Technology Stack
+
+- **Vite**: A fast build tool for modern web applications.
+- **React**: A JavaScript library for building user interfaces.
+- **Context API**: For global state management.
+- **useReducer**: To handle complex state logic across components.
+
+## Installation
+
+To get started with this project, follow these steps:
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/your-username/expense-tracker.git
+   ```
+
+2 **Navigate to the project directory**:
+
+cd expense-tracker
+
+3 **Install the dependencies**:
+npm install
+
+4 **Start the development server**:
+
+npm run dev
+
+5 **Build the project for production**:
+
+npm run build
