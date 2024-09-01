@@ -28,15 +28,24 @@ To get started with this project, follow these steps:
 
 2 **Navigate to the project directory**:
 
+```bash
 cd expense-tracker
+```
 
 3 **Install the dependencies**:
+
+```bash
 npm install
+```
 
 4 **Start the development server**:
 
+```bash
 npm run dev
+```
 
 5 **Build the project for production**:
 
+```bash
 npm run build
+```
